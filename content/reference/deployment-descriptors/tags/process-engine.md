@@ -666,20 +666,6 @@ The following is a list with the most commonly used process engine configuration
     </td>
   </tr>
 
-  <tr>
-    <td><a name="queryMaxResultsLimit"></a><code>queryMaxResultsLimit</code></td>
-    <td>Integer</td>
-    <td>
-        When defining a limit of maximum results, an authenticated user cannot perform a query 
-        with an unbounded number of results or a paginated query that exceeds the limit. 
-        Read more about it in the
-        <a href="{{< ref "/user-guide/process-engine/process-engine-api.md#query-maximum-results-limit">}}">User Guide</a>.
-        <br><br>
-        <strong>Note:</strong> To gain the full feature set of the Webapps, and not suffer any UX degradation due to unavailable data, the <code>queryMaxResultsLimit</code> must be set to <code>2000</code>. <br><br>
-        The default value is 2<sup>31</sup>-1.
-    </td>
-  </tr>
-
   <tr id="initializeTelemetry">
     <td><code>initializeTelemetry</code></td>
     <td>boolean</td>
